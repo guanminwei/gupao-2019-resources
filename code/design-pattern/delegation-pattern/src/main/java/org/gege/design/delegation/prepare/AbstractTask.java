@@ -1,4 +1,4 @@
-package org.gege.design.delegation;
+package org.gege.design.delegation.prepare;
 
 /**
  * @Description 抽象任务角色

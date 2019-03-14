@@ -11,6 +11,7 @@
     <modules>
         <module>delegation-pattern</module>
         <module>singleton-pattern</module>
+        <module>factory-pattern</module>
     </modules>
 
     <dependencies>
@@ -19,6 +20,11 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.5</version>
         </dependency>
     </dependencies>
 

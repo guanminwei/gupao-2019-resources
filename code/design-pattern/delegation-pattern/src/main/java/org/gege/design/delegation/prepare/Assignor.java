@@ -1,4 +1,4 @@
-package org.gege.design.delegation;
+package org.gege.design.delegation.prepare;
 
 /**
  * @Description 委派者角色

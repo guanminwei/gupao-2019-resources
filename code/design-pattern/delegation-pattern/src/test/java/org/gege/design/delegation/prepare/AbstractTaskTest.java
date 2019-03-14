@@ -1,4 +1,4 @@
-package org.gege.design.delegation;
+package org.gege.design.delegation.prepare;
 
 import org.junit.Test;
 
