@@ -14,6 +14,8 @@
         <module>factory-pattern</module>
         <module>proxy-pattern</module>
         <module>prototype-pattern</module>
+        <module>template-pattern</module>
+        <module>adapter-pattern</module>
     </modules>
 
     <dependencies>
