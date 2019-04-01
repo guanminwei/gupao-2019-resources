@@ -15,6 +15,7 @@ public class DemoController {
     @AutoWired
     private DemoService demoService;
 
+    @RequestMapping("/01")
     public String login(String username){
         return "hello "+username;
     }
