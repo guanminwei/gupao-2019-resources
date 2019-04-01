@@ -1,15 +1,15 @@
-package org.gege.write.spring.v1;
+package org.gege.write.spring.v1.annotation;
 
 import java.lang.annotation.*;
 
 /**
  * @Description:
  * @Author: gege
- * @CreateDate: 2019/3/28 18:06
+ * @CreateDate: 2019/3/28 17:57
  */
-@Target({ElementType.PARAMETER})
+@Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface RequestParam {
+public @interface Service {
     String value() default "";
 }
