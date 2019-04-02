@@ -1,6 +1,6 @@
-package org.gege.write.spring.v1.demo;
+package org.gege.write.spring.demo;
 
-import org.gege.write.spring.v1.annotation.MyService;
+import org.gege.write.spring.annotation.MyService;
 
 /**
  * @Description:

@@ -1,10 +1,9 @@
 package org.gege.write.spring.v1.mvc;
 
-import org.apache.commons.lang3.StringUtils;
-import org.gege.write.spring.v1.annotation.AutoWired;
-import org.gege.write.spring.v1.annotation.Controller;
-import org.gege.write.spring.v1.annotation.MyService;
-import org.gege.write.spring.v1.annotation.RequestMapping;
+import org.gege.write.spring.annotation.AutoWired;
+import org.gege.write.spring.annotation.Controller;
+import org.gege.write.spring.annotation.MyService;
+import org.gege.write.spring.annotation.RequestMapping;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
@@ -58,7 +57,7 @@ public class DispatcherServlet  extends HttpServlet {
                if(annotationValue==null||annotationValue=="")
                    beanname = clazz.getName();
                else
-                   beanname = clazzName;
+                   beanname = annotationValue;
                Object instance = clazz.newInstance();
                ioc.put(beanname,instance);
                for (Class<?> i : clazz.getInterfaces()) {

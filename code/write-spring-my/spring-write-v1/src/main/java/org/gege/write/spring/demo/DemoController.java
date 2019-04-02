@@ -1,8 +1,8 @@
-package org.gege.write.spring.v1.demo;
+package org.gege.write.spring.demo;
 
-import org.gege.write.spring.v1.annotation.AutoWired;
-import org.gege.write.spring.v1.annotation.Controller;
-import org.gege.write.spring.v1.annotation.RequestMapping;
+import org.gege.write.spring.annotation.AutoWired;
+import org.gege.write.spring.annotation.Controller;
+import org.gege.write.spring.annotation.RequestMapping;
 
 /**
  * @Description:

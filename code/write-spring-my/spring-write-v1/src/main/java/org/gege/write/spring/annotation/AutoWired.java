@@ -1,4 +1,4 @@
-package org.gege.write.spring.v1.annotation;
+package org.gege.write.spring.annotation;
 
 import java.lang.annotation.*;
 
